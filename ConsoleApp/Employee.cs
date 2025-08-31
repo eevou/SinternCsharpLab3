@@ -49,12 +49,12 @@ namespace lab03
         public Employee() { counter++; }
 
         // Parameterized Constructor
-        public Employee(int id, string name, int age, int salary)
+        public Employee(int _id, string _name, int _age, int _salary)
         {
-            this.id = id;
-            this.name = name;
-            this.age = age;
-            this.salary = salary;
+            id = _age;
+            name =_name;
+            age = _age;
+            salary = _salary;
             counter++;
         }
         // diplay method
